@@ -4,6 +4,7 @@
     --scaleX: .8;
     --transx: 6%;
     --font-size: 1.7rem;
+    --price-size: 2rem;
 }
 *{
     padding: 0; 
@@ -97,8 +98,13 @@ div.container > .pricing:nth-child(3){transform: scaleY(var(--scaleY)) scaleX(va
 
 
 
-
-
+/* 
+    select the price num
+*/
+.price-num{
+    font-size: var(--price-size);
+    font-weight: 800;
+}
 
 
 
